@@ -1,0 +1,236 @@
+{
+  "snapshot_date": "2026-11-18",
+  "timezone": "America/New_York",
+  "workspace": "/home/emiliano/Documents/ChatGPT/Micrograv Experiment Build",
+  "electrical_directory": "Electrical Schem",
+  "electrical_revision": "B",
+  "drawing_revision": "C",
+  "canonical_project": "Microgravity.kicad_pro",
+  "canonical_schematic": "Microgravity.kicad_sch",
+  "hardware_target": {
+    "motor": "Pittman 9236S009-SP",
+    "drawing_variant_unverified": "9236S009-R1-SP",
+    "controller": "Basicmicro RoboClaw 2x7A / IMC404"
+  },
+  "counts": {
+    "components": 95,
+    "native_root_symbols_including_flags": 101,
+    "power_flags": 6,
+    "connected_nets": 59,
+    "intentional_nc_nets": 15,
+    "exported_net_partitions": 74,
+    "main_project_pages": 7,
+    "component_categories": {
+      "A": 5,
+      "BT": 1,
+      "C": 26,
+      "D": 2,
+      "F": 5,
+      "J": 6,
+      "M": 1,
+      "Q": 4,
+      "R": 31,
+      "RT": 5,
+      "SW": 5,
+      "U": 4
+    }
+  },
+  "root_structure": {
+    "paper": "A0",
+    "physical_component_instances": 95,
+    "one_label_per_connected_network": 59,
+    "explicit_no_connect_markers": 15,
+    "wire_segments": 595,
+    "junctions": 121,
+    "reference_children": [
+      {
+        "path": "reference_pages/detail_1.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      },
+      {
+        "path": "reference_pages/detail_2.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      },
+      {
+        "path": "reference_pages/detail_3.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      },
+      {
+        "path": "reference_pages/detail_4.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      },
+      {
+        "path": "reference_pages/detail_5.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      },
+      {
+        "path": "reference_pages/detail_6.kicad_sch",
+        "native_electrical_symbols": 0,
+        "embedded_images": 1
+      }
+    ]
+  },
+  "fresh_checks": {
+    "erc_errors": 0,
+    "erc_warnings": 0,
+    "erc_report_text": "ERC report (2026-11-18T15:50:19, Encoding UTF8)\nReport includes: Errors, Warnings\n\n***** Sheet /\n\n***** Sheet /Detail 1: Power and host/\n\n***** Sheet /Detail 2: Battery cutoff/\n\n***** Sheet /Detail 3: Motor and regeneration/\n\n***** Sheet /Detail 4: Teensy and IMU/\n\n***** Sheet /Detail 5: Five temperatures/\n\n***** Sheet /Detail 6: Stop and mode/\n\n ** ERC messages: 0  Errors 0  Warnings 0\n\n ** Ignored checks:\n    - Global label only appears once in the schematic\n    - Four connection points are joined together\n    - SPICE model issue\n    - Assigned footprint doesn't match footprint filters\n",
+    "fresh_vs_saved_net_partitions_equal": true,
+    "fresh_vs_detailed_net_partitions_equal": true,
+    "fresh_vs_detailed_values_and_footprints_equal": true,
+    "reference_pages_have_no_electrical_instances": true,
+    "schematic_generators_executed_for_documentation_task": false
+  },
+  "verification_environment": {
+    "kicad_cli": "10.0.6",
+    "python": "system Python 3",
+    "reference_rendering": "Poppler pdftoppm and Pillow",
+    "font_dependency": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+  },
+  "generator_hazards": [
+    "build_schematic.py executes mutations at top level, including when runpy imports it.",
+    "build_interconnect.py invokes the detailed generator and reads archive/revision-B-before-interconnect/Microgravity.xml for electrical data.",
+    "install_interconnect.py invokes the detailed generator and installs the existing standalone full-page copy; it does not preserve arbitrary canonical manual edits.",
+    "Generation creates new UUIDs and may invalidate future PCB links.",
+    "Reference snapshots and standalone copy are not live synchronized.",
+    "verify_netlist.py reads the exported XML, not the native schematic, and writes WIRING.csv and validation_report.txt."
+  ],
+  "hardware_state": {
+    "pcb_layout_present": false,
+    "spice_simulation_performed": false,
+    "hardware_commissioning_established": false,
+    "firmware_implemented_by_authoring_scripts": false,
+    "flywheel_energy_qualified": false
+  },
+  "files": {
+    "Microgravity.kicad_pro": {
+      "bytes": 8725,
+      "sha256": "6af35d22907ee46e8b090f1c2135c4c35cd41e2a0ef8eaaa18210f131c7469c3"
+    },
+    "Microgravity.kicad_sch": {
+      "bytes": 406236,
+      "sha256": "ecc9f6672b68f98aeb883bb90c02f489dab60597ec46d34b8b745b6897607ff5"
+    },
+    "Microgravity_interconnect.kicad_sch": {
+      "bytes": 403121,
+      "sha256": "2bee26b5da44a947ca98223a495cadd07cfac90423c579afae37350af708ae0f"
+    },
+    "Microgravity_interconnect.kicad_pro": {
+      "bytes": 8725,
+      "sha256": "6af35d22907ee46e8b090f1c2135c4c35cd41e2a0ef8eaaa18210f131c7469c3"
+    },
+    "Micrograv.kicad_sym": {
+      "bytes": 25491,
+      "sha256": "6c4f74def043b6936077ffc7d0695faadbbfb7855cef53340bce8e720639441a"
+    },
+    "sym-lib-table": {
+      "bytes": 180,
+      "sha256": "b801046c72b60a23ff5d27b442640ac9c92757ee8215fdf203064648194898b9"
+    },
+    "Microgravity.kicad_pcb": {
+      "bytes": 79,
+      "sha256": "9732c37867cd081621490a6345db7caeb4599f087175afcdd57d0df064127de4"
+    },
+    "microg_friction.kicad_sch": {
+      "bytes": 763,
+      "sha256": "69ed19ca58c18e69e6b0d9c49209b3952fa01a9f3f75c1165c80cbd790373ab3"
+    },
+    "Microgravity.xml": {
+      "bytes": 148904,
+      "sha256": "231ae09d9616d7ea48f1a2a6a0a73972995456e38b82c66237834c570eb28f8a"
+    },
+    "Microgravity.net": {
+      "bytes": 118370,
+      "sha256": "a13aafec5e794391007bf9344fa366d6c927ae1a4a3153f1fdf9a3ee3e727de0"
+    },
+    "BOM.csv": {
+      "bytes": 9025,
+      "sha256": "534c26b0ae601d1a79f93ca1f868ccfd9594bd19fb3fb46ac5ca0e6d0d653136"
+    },
+    "WIRING.csv": {
+      "bytes": 5614,
+      "sha256": "73a0ea5662940b77f1461d34610790d70ff82e83e9d396d66b69ce1caf882a81"
+    },
+    "DESIGN_NOTES.md": {
+      "bytes": 21401,
+      "sha256": "a7c0449f19386c249a532803571ad35820d2b49dccde7f38339854057c6b8108"
+    },
+    "ERC_report.txt": {
+      "bytes": 595,
+      "sha256": "1c230af00aa07f9bd7b34de79f758b68ca411edd7f5121f92d3329d8be798559"
+    },
+    "validation_report.txt": {
+      "bytes": 740,
+      "sha256": "42c9aac601f4b4af24264d81f5f47bbe20d712c2df2f6e7bbf92e793e40c5f6f"
+    },
+    "interconnect_validation.txt": {
+      "bytes": 321,
+      "sha256": "cb14ef2859f808222eb27fde55f1c97dcb8b71987c7f9b592a0fc8979ee1918b"
+    },
+    "Microgravity_diagram.pdf": {
+      "bytes": 849503,
+      "sha256": "b137df85e76864bc5640441831797e0d4a038d5f80e1d1141ce8d4d09ef2a8b1"
+    },
+    "Microgravity_interconnect.pdf": {
+      "bytes": 247755,
+      "sha256": "069467ee720713ecedc42dca4490b9a20293f718beb6ba5235ab06c9c3461664"
+    },
+    "Microgravity_detail_sheets.pdf": {
+      "bytes": 470312,
+      "sha256": "f276267e57fea679e9962bb8506f741961ce8d6eec63e6ff1c1d6b3faba9bafd"
+    },
+    "design/build_schematic.py": {
+      "bytes": 28013,
+      "sha256": "3b795a35e471d33d7f63d3bb6cd641c18171f79112a3a2847c2d0e7ff4c3f458"
+    },
+    "design/build_interconnect.py": {
+      "bytes": 11038,
+      "sha256": "61bb0e7a22e325ac05a8effd91d1ec27dbd336539db5cc7df1aa694f1bb11fac"
+    },
+    "design/install_interconnect.py": {
+      "bytes": 5390,
+      "sha256": "ea7e654065ec910d882c3fa4825bd2b980234714772a342ddcdeb4fdc2534e0b"
+    },
+    "design/verify_netlist.py": {
+      "bytes": 3960,
+      "sha256": "708fb587c430dcb41d7bbb7df243b5a230be3c2546b2aefc2592f91cd10c5a34"
+    },
+    "reference/detailed_revision_B/baseline.xml": {
+      "bytes": 155662,
+      "sha256": "a23abef0f68c212e86e305bba7f2533bbd93685cb1f53b6999d32ca89b599e0b"
+    },
+    "archive/revision-B-before-interconnect/Microgravity.xml": {
+      "bytes": 155662,
+      "sha256": "68446acf89ebc1d55cbbf9544f02497f4a1c813d555b057f56ff9108c260c25c"
+    },
+    "reference_pages/detail_1.kicad_sch": {
+      "bytes": 211748,
+      "sha256": "ccb530f0fcaf46c340e3a3364d0a22d48164af159933126186c275524f98df58"
+    },
+    "reference_pages/detail_2.kicad_sch": {
+      "bytes": 191797,
+      "sha256": "f07d5109c1a542fa79d360d2b3fc6bf9f732b77b2ff8893a5402dfacc26842a7"
+    },
+    "reference_pages/detail_3.kicad_sch": {
+      "bytes": 226506,
+      "sha256": "9beb89b888c1fbef2fcaabfa47408272db2e2289a271811207d7afe2ef1ea870"
+    },
+    "reference_pages/detail_4.kicad_sch": {
+      "bytes": 192212,
+      "sha256": "c68a241c3d40ae6fd141db061275283acfd9a47fb404fef7a5febcf5f2b6599c"
+    },
+    "reference_pages/detail_5.kicad_sch": {
+      "bytes": 212059,
+      "sha256": "142502947c57bb2fe4171048c18e6f15d3acb991e6d7fee837802dfb4e7a3c49"
+    },
+    "reference_pages/detail_6.kicad_sch": {
+      "bytes": 150550,
+      "sha256": "9bba22859a7d0909d8e9e68586749f7fa633b472d5aec61dd00c33c226335a21"
+    }
+  },
+  "manifest_scope": "Point-in-time documentation audit. Self and handoff hashes excluded to avoid circular references. No hardware validation is implied."
+}
